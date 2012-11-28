@@ -6,6 +6,9 @@ import java.util.List;
 /**
  * Represents a call log as an ordered list of call entries.
  * 
+ * Yes, obviously, currently this doesn't present any functionality that a
+ * straight List instance wouldn't, but we can extend this class to add
+ * validation of records as they're inserted, efficient lookup of records, etc.
  */
 public class CallLog {
 
